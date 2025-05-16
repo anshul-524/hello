@@ -6,3 +6,11 @@ h1{
 body {
     background-color: red;
 }
+#button {
+    opacity: 0 !important;
+}
+#button.show {
+    opacity: 1 !important;
+    z-index: 999 !important;
+    visibility: visible !important;
+}
